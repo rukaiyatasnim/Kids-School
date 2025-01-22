@@ -79,12 +79,13 @@
   margin-top: 5px;
 }
 .nav-button {
-  font-weight: 600;
-  font-size: 20px;
-  padding: 10px;
   border-radius: 12px;
-  background-color: hsla(38, 99%, 51%, 1);
-  color: hsla(0, 0%, 101%, 1);
+  background: orange;
+  padding: 10px 30px;
+  border: 2px solid orange;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 .banner {
   margin-top: 25px;
@@ -109,13 +110,14 @@
   color: Black;
 }
 .banner-button {
-  padding: 10px;
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 20px;
   margin-top: 24px;
-  background-color: black;
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  padding: 10px 30px;
+  border: 2px solid black;
   color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 .banner-img {
   width: 310px;
@@ -319,7 +321,7 @@
 }
 
 .marquee {
-  margin-left: 110px;
+  margin-left: 120px;
 }
 
 /* FOOTER PART */

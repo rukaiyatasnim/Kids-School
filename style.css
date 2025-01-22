@@ -362,6 +362,8 @@ footer {
 }
 
 .footer__navbar ul {
+  margin-right: 53px;
+  list-style: none;
   display: flex;
   flex-direction: column;
   margin-top: 24px;
@@ -487,7 +489,7 @@ footer {
     padding: 100px 0;
   }
 
-  /* Fixed */
+
   .arrow-container {
     display: none;
   }

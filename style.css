@@ -121,6 +121,9 @@
   width: 310px;
   height: 575px;
 }
+.curriculum-section {
+  background: url("/assets/bg.png") no-repeat top left;
+}
 
 .curriculam-head {
   color: rgb(0, 0, 0);
@@ -130,6 +133,7 @@
 
 .curriculam {
   margin-left: 135px;
+  background: url("/assets/bg.png") no-repeat top left;
 }
 .curriculam-boxes {
   display: flex;
@@ -188,6 +192,130 @@
   color: white;
   font-size: 24px;
   cursor: pointer;
+}
+
+/* Story  */
+
+.our__stories {
+  background: url("/assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+
+.stories-container > h2 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.cards-stories {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 80px;
+  padding-bottom: 80px;
+  gap: 40px;
+}
+
+.story-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.stories__des {
+  margin: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.text3 {
+  color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+}
+
+.story-card > button {
+  border-radius: 48px;
+  background: rgb(60, 216, 232);
+  margin-left: 34px;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -150px;
+  color: white;
+}
+
+.date {
+  margin-left: 34px;
+  border-radius: 47.93px;
+  background: rgb(60, 216, 232);
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  margin-top: -30px;
+  position: relative;
+  color: white;
+  z-index: 3;
+}
+
+.story-card > img {
+  position: relative;
+}
+
+.img-story {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.date__card {
+  border-radius: 16px;
+  background: white;
+  overflow: hidden;
+}
+
+.date__card > img {
+  position: relative;
+}
+
+.text__p {
+  margin: 34px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date__line {
+  border-radius: 47.93px;
+  background: rgb(149, 178, 38);
+  width: 200px;
+  padding: 15px;
+  color: white;
+  position: relative;
+  z-index: 4;
+  margin-left: 34px;
+  margin-top: -32px;
+}
+
+.date-blue {
+  background: rgb(93, 88, 240);
+}
+
+.btn__view {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.btn__view button {
+  border-radius: 12px;
+  background: rgb(17, 17, 17);
+  padding: 10px 30px;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* FOOTER PART */

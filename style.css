@@ -15,6 +15,36 @@
 .blue {
   color: rgb(1, 172, 253);
 }
+.blue-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 0%,
+    rgb(222, 245, 255) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 0.94px solid rgb(222, 245, 255);
+  box-shadow: inset 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.pink {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 0%,
+    rgb(255, 244, 220) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 0.94px solid rgb(255, 244, 220);
+  box-shadow: inset 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.white-gradient {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255) 0%,
+    rgb(238, 225, 255) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 0.94px solid rgb(242, 232, 255);
+  box-shadow: inset 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
 .navbar {
   display: flex;
   padding: 20px 0px 20px 0px;
@@ -110,7 +140,14 @@
 .curriculam-box {
   width: 368px;
   height: 450px;
-  background-color: black;
+  background: linear-gradient(
+    to bottom,
+    rgb(222, 245, 255) 0%,
+    rgb(255, 255, 255) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 0.94px solid rgb(222, 245, 255);
+  box-shadow: inset 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
   text-align: center;
   border-radius: 18px;
@@ -133,10 +170,10 @@
 .curriculam-box-btn {
   margin-top: 25px;
   padding: 4.72px, 23.27px, 4.72px, 0px;
+  font-weight: 700;
 }
 .curriculam-btn {
   margin-left: 515px;
-
   margin-top: 80px;
 }
 .curricula-button {
@@ -151,4 +188,56 @@
   color: white;
   font-size: 24px;
   cursor: pointer;
+}
+
+/* FOOTER PART */
+
+.foot {
+  width: 1439px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(1, 172, 253);
+}
+.foot-left-header {
+  display: flex;
+}
+.foot-header {
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.foot-left-description {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.foot-center-head {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+}
+.foot-center-description {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+}
+.foot-list-items {
+  list-style: none;
+}
+.foot-list {
+  margin-top: 18px;
+}
+.foot-right-head {
+  font-weight: 700;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.foot-right-description {
+  margin-left: 10px;
+  margin-top: 15px;
 }
